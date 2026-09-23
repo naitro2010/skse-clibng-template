@@ -8,10 +8,19 @@
     "plugin": {
       "description": "SKSE plugin",
       "dependencies": [
-        "commonlibsse-ng",
         "spdlog",
         "xbyak",
         "detours"
+        {
+            "name": "directxmath",
+            "version>=": "2025-04-03"
+        },
+        {
+            "name": "directxtk",
+            "version>=": "2025-10-27"
+        },
+        "openvr",              
+        "commonlibsse-gg"  
       ]
     }
   },

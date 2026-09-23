@@ -1,0 +1,17 @@
+{
+  "default-registry": {
+    "kind": "git",
+    "repository": "https://github.com/microsoft/vcpkg",
+    "baseline": "1de2026f28ead93ff1773e6e680387643e914ea1"
+  },
+  "registries": [
+    {
+      "kind": "git",
+      "repository": "https://github.com/naitro2010/skyrim-vcpkg-ports",
+      "baseline": "2630ab53da47eac8adf3d8b52d77d74586cb4cfe",
+      "packages": [
+        "commonlibsse-gg"
+      ]
+    }
+  ]
+}
