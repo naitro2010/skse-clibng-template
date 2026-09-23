@@ -10,7 +10,7 @@
       "dependencies": [
         "spdlog",
         "xbyak",
-        "detours"
+        "detours",
         {
             "name": "directxmath",
             "version>=": "2025-04-03"
